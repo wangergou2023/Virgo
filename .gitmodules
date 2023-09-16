@@ -1,0 +1,15 @@
+[submodule "soc/uboot/src"]
+	path = soc/uboot/src
+	url = https://github.com/wangergou2023/uboot_rk3568.git
+[submodule "soc/uboot/rkbin"]
+	path = soc/uboot/rkbin
+	url = https://github.com/wangergou2023/rkbin_rk3568.git
+[submodule "soc/kernel/src"]
+	path = soc/kernel/src
+	url = https://github.com/wangergou2023/kernel_rk3568.git
+[submodule "soc/rootfs/ubuntu"]
+	path = soc/rootfs/ubuntu
+	url = https://github.com/wangergou2023/ubuntu_rootfs_rk3568.git
+[submodule "mcu"]
+	path = mcu
+	url = https://github.com/wangergou2023/freertos_stm32.git
