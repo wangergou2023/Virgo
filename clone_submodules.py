@@ -21,7 +21,7 @@ def clone_selected_submodules(submodules, selected_indices):
     for idx in selected_indices:
         name, path, url = submodules[idx-1]
         print(f"Cloning {name} into {path}...")
-        os.system(f"git clone {url} {path}")
+        os.system(f"git clone --depth=1 {url} {path}")
 
 def main():
     try:
